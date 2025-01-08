@@ -1,50 +1,59 @@
-# Welcome to your Expo app 👋
+# SALUDABLES
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+![Project Logo](./assets/images/icon.png)
 
-## Get started
+## Introduction
 
-1. Install dependencies
+Discover 🏖️ beaches, 🏊 pools, and 🍴 healthy restaurants near you. Live a healthier lifestyle with personalized recommendations.
 
+## Getting Started
+
+To get started with the SALUDABLES project, follow these steps:
+
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/BinniZenobioCordovaLeandro/Saludables.git
+   ```
+2. **Navigate to the project directory:**
+   ```bash
+   cd saludables
+   ```
+3. **Install the dependencies:**
    ```bash
    npm install
    ```
-
-2. Start the app
-
+4. **Run the project:**
    ```bash
-    npx expo start
+   npm start
    ```
 
-In the output, you'll find options to open the app in a
+## Features
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+- **Beach Finder:** Locate the best beaches near you with detailed information on amenities, water quality, and user reviews.
+- **Pool Locator:** Find nearby pools, including public and private options, with details on opening hours, facilities, and entry fees.
+- **Healthy Restaurant Guide:** Discover restaurants that offer healthy dining options, complete with menus, nutritional information, and customer ratings.
+- **Personalized Recommendations:** Receive tailored suggestions based on your preferences and location to help you maintain a healthy lifestyle.
+- **User Reviews and Ratings:** Read and contribute reviews and ratings for beaches, pools, and restaurants to help the community make informed decisions.
+- **Interactive Map:** Use the interactive map to explore and navigate to nearby healthy spots with ease.
+- **Health Tips and Articles:** Access a collection of articles and tips on healthy living, nutrition, and fitness to support your wellness journey.
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+## Contributing
 
-## Get a fresh project
+We welcome contributions from the community. To contribute, please follow these steps:
 
-When you're ready, run:
+1. Fork the repository.
+2. Create a new branch (`git checkout -b feature-branch`).
+3. Make your changes.
+4. Commit your changes (`git commit -m 'Add new feature'`).
+5. Push to the branch (`git push origin feature-branch`).
+6. Create a new Pull Request.
 
-```bash
-npm run reset-project
-```
+## License
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+This project is licensed under the MIT License. See the [LICENSE](./LICENSE) file for details.
 
-## Learn more
+## Contact
 
-To learn more about developing your project with Expo, look at the following resources:
+For any questions or suggestions, please contact us at [contact@saludables.com](mailto:contact@saludables.com).
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+![Thank You](./assets/images/icon.png)
