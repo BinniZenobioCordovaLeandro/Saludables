@@ -1,10 +1,11 @@
-import listMock from "./mocks/data.json";
+import pool_list from "./mocks/data_pi.json";
+import beach_list from "./mocks/data_pl.json";
 import type { Item } from "./models/Item";
 
 const dataService = {
-    list: async (): Promise<Item[]> => {
+    list: async (list: 'pool' | 'beach' = 'pool'): Promise<Item[]> => {
         try {
-            const response = listMock;
+            const response = list === 'pool' ? pool_list : beach_list;
             if (response.status !== 200) {
                 throw new Error("Network response was not ok");
             }

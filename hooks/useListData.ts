@@ -47,6 +47,8 @@ const sortDataAccordingLocation = (
 };
 
 const useListData = () => {
+    const [listType, setListType] = useState<'beach' | 'pool'>("beach");
+    const [filterHealth, setFilterHealth] = useState<boolean>(false);
     const [items, setItems] = useState<ItemWithDistance[] | Item[]>([]);
     const [loading, setLoading] = useState<boolean>(true);
     const [error, setError] = useState<string | null>(null);
@@ -56,8 +58,14 @@ const useListData = () => {
     useEffect(() => {
         const fetchData = async () => {
             try {
-                const response = await dataService.list();
-                const data: Item[] = response as Item[];
+                setLoading(true);
+                const response = await dataService.list(listType);
+                let data: Item[] = response as Item[];
+                
+                if (filterHealth) {
+                    data = data.filter(item => item.keyCalidadSanitaria !== "ns");
+                }
+
                 if (!location) setItems(data);
                 else setItems(sortDataAccordingLocation(data, location));
             } catch (error) {
@@ -72,9 +80,9 @@ const useListData = () => {
         };
 
         fetchData();
-    }, [location]);
+    }, [location, listType, filterHealth]);
 
-    return { items, loading, error };
+    return { items, loading, error: error ?? errorMsg, setListType, listType, setFilterHealth, filterHealth };
 };
 
 export default useListData;

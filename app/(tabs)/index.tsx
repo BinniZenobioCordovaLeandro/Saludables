@@ -7,15 +7,18 @@ import {
     Text,
     View,
     TextInput,
+    Button,
 } from "react-native";
 import { ThemedView } from "@/components/ThemedView";
 import useListData from "@/hooks/useListData";
 import HealthDetail from "@/components/HealthDetail";
 import { useEffect, useState } from "react";
 import { ThemedText } from "@/components/ThemedText";
+import SegmentedControl from '@react-native-segmented-control/segmented-control';
+import { Switch } from 'react-native';
 
 export default function HomeScreen() {
-    const { items, loading, error } = useListData();
+    const { items, loading, error, setListType, listType, setFilterHealth, filterHealth } = useListData();
     const [filter, setFilter] = useState("");
     const [filteredItems, setFilteredItems] = useState(items);
 
@@ -56,17 +59,38 @@ export default function HomeScreen() {
     return (
         <FlatList
             ListHeaderComponent={
-                <View style={styles.stepContainer}>
-                    <TextInput
-                        style={styles.input}
-                        placeholder="Buscar"
-                        value={filter}
-                        onChangeText={setFilter}
-                    />
-                    <ThemedText style={styles.caption}>
-                        {filteredItems.length} resultados
-                    </ThemedText>
+                <View>
+                    <ThemedView> 
+                        <SegmentedControl
+                            values={['Playas', 'Piscinas']}
+                            selectedIndex={listType === 'beach' ? 0 : 1}
+                            onChange={(event) => {
+                                const index = event.nativeEvent.selectedSegmentIndex;
+                                setListType(index === 0 ? 'beach' : 'pool');
+                            }}
+                        />
+                    </ThemedView>
+                    <View style={styles.row}>
+                        <Switch value={filterHealth} onValueChange={setFilterHealth} />
+                        <ThemedText>Solo saludables</ThemedText>
+                    </View>
+                    <View style={styles.stepContainer}>
+                        <TextInput
+                            style={styles.input}
+                            placeholder="Buscar"
+                            value={filter}
+                            onChangeText={setFilter}
+                        />
+                        <ThemedText style={styles.caption}>
+                            {filteredItems.length} resultados
+                        </ThemedText>
+                    </View>
                 </View>
+            }
+            ListEmptyComponent={
+                <ThemedView style={styles.centered}>
+                    <ThemedText>No se encontraron resultados</ThemedText>
+                </ThemedView>
             }
             contentContainerStyle={{
                 paddingVertical: Platform.OS === "ios" ? 40 : 0,
@@ -113,5 +137,11 @@ const styles = StyleSheet.create({
     caption: {
         textAlign: "right",
         paddingHorizontal: 16,
+    },
+    row: {
+        flexDirection: "row",
+        justifyContent: "space-between",
+        alignItems: "center",
+        marginBottom: 16,
     },
 });

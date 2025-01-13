@@ -1,13 +1,11 @@
 import type React from "react";
-import { View, Text, StyleSheet, ScrollView, Dimensions } from "react-native";
+import { View, StyleSheet } from "react-native";
 import { Image } from "expo-image";
 import { ThemedView } from "./ThemedView";
 import { ThemedText } from "./ThemedText";
-import type { Item, ItemWithDistance } from "@/services/models/Item";
+import type { ItemWithDistance } from "@/services/models/Item";
 import * as Linking from "expo-linking";
 import { ThemedIcon } from "./ThemedIcon";
-
-const { width } = Dimensions.get("window");
 
 const evolutiveDistanceText = (distance?: number) => {
     if (!distance) return "No disponible";
@@ -57,27 +55,38 @@ const HealthDetail: React.FC<ItemWithDistance> = ({
             />
             <ThemedView style={[styles.content]}>
                 <View style={styles.row}>
-                    <ThemedText style={styles.title}>{strNombre}</ThemedText>
-                    <ThemedIcon
-                        name="flag"
-                        size={50}
-                        color={keyCalidadSanitaria === "ns" ? "red" : "blue"}
-                    />
+                    <View style={{ flex: 1 }}>
+                        <ThemedText style={styles.title}>
+                            {strNombre}
+                        </ThemedText>
+                        <ThemedText style={styles.text}>
+                            Distancia: {evolutiveDistanceText(distance)}
+                        </ThemedText>
+                    </View>
+                    <View>
+                        <ThemedIcon
+                            name="flag"
+                            size={50}
+                            color={
+                                keyCalidadSanitaria === "ns" ? "red" : "blue"
+                            }
+                        />
+                        <ThemedIcon
+                            name="route"
+                            size={50}
+                            onPress={() => {
+                                Linking.openURL(
+                                    `https://www.google.com/maps/dir/?api=1&destination=${strLatitud},${strLongitud}`,
+                                );
+                            }}
+                        />
+                    </View>
                 </View>
-                <View style={styles.row}>
-                    <ThemedText style={styles.text}>
-                        Distancia: {evolutiveDistanceText(distance)}
-                    </ThemedText>
-                    <ThemedIcon
-                        name="route"
-                        size={50}
-                        onPress={() => {
-                            Linking.openURL(
-                                `https://www.google.com/maps/dir/?api=1&destination=${strLatitud},${strLongitud}`,
-                            );
-                        }}
-                    />
-                </View>
+                <View
+                    style={{
+                        height: 16,
+                    }}
+                />
                 <ThemedText style={styles.text}>
                     <ThemedText style={styles.bold}>
                         Calidad Sanitaria:
@@ -94,7 +103,7 @@ const HealthDetail: React.FC<ItemWithDistance> = ({
                     <ThemedText style={styles.bold}>Ubicación:</ThemedText>{" "}
                     {strDepartamento}, {strProvincia}, {strDistrito}
                 </ThemedText>
-                <ThemedText style={styles.subtitle}>Controles</ThemedText>
+                <ThemedText style={styles.subtitle}>Revisiones</ThemedText>
                 <ThemedView>
                     {aControles.map((control, index) => (
                         <View
@@ -141,7 +150,7 @@ const styles = StyleSheet.create({
     },
     image: {
         width: "100%",
-        height: width * 0.5,
+        aspectRatio: 16 / 9,
         marginBottom: 8,
     },
     text: {

@@ -434,13 +434,13 @@
             "strLatitud": "-12.14110374",
             "strLongitud": "-77.02822113",
             "strDescripcion": "",
-            "dateUltimaInspeccion": "2024-12-28",
+            "dateUltimaInspeccion": "2025-01-04",
             "strDepartamento": "LIMA",
             "strProvincia": "LIMA",
             "strDistrito": "BARRANCO",
             "urlFoto": "http://veranosaludable.minsa.gob.pe/Storage/tbl_playas/fld_1081_Foto_file/25-775974a0e6f6363.jpg",
             "strSource": "pl",
-            "strUltimaInspeccion": "Última Inspección: 28-Dic-2024",
+            "strUltimaInspeccion": "Última Inspección: 04-Ene-2025",
             "aControles": [
                 {
                     "control": "Calidad Microbiológica",
@@ -469,13 +469,13 @@
             "strLatitud": "-12.14583397",
             "strLongitud": "-77.02565765",
             "strDescripcion": "",
-            "dateUltimaInspeccion": "2024-12-28",
+            "dateUltimaInspeccion": "2025-01-04",
             "strDepartamento": "LIMA",
             "strProvincia": "LIMA",
             "strDistrito": "BARRANCO",
             "urlFoto": "http://veranosaludable.minsa.gob.pe/Storage/tbl_playas/fld_1081_Foto_file/26-4da555b08574bce.jpg",
             "strSource": "pl",
-            "strUltimaInspeccion": "Última Inspección: 28-Dic-2024",
+            "strUltimaInspeccion": "Última Inspección: 04-Ene-2025",
             "aControles": [
                 {
                     "control": "Calidad Microbiológica",
@@ -487,7 +487,7 @@
                 },
                 {
                     "control": "Presencia de Servicios Higiénicos",
-                    "valor": 0
+                    "valor": 1
                 }
             ]
         },
@@ -504,13 +504,13 @@
             "strLatitud": "-12.14925385",
             "strLongitud": "-77.02484131",
             "strDescripcion": "",
-            "dateUltimaInspeccion": "2024-12-28",
+            "dateUltimaInspeccion": "2025-01-04",
             "strDepartamento": "LIMA",
             "strProvincia": "LIMA",
             "strDistrito": "BARRANCO",
             "urlFoto": "http://veranosaludable.minsa.gob.pe/Storage/tbl_playas/fld_1081_Foto_file/27-941f31cc35c0f9a.jpg",
             "strSource": "pl",
-            "strUltimaInspeccion": "Última Inspección: 28-Dic-2024",
+            "strUltimaInspeccion": "Última Inspección: 04-Ene-2025",
             "aControles": [
                 {
                     "control": "Calidad Microbiológica",
@@ -534,18 +534,18 @@
             "idProvincia": "21",
             "idDistrito": "590",
             "strDireccion": "",
-            "strCalidadSanitaria": "Saludable",
-            "keyCalidadSanitaria": "sa",
+            "strCalidadSanitaria": "No Saludable",
+            "keyCalidadSanitaria": "ns",
             "strLatitud": "-12.155880",
             "strLongitud": "-77.026892",
             "strDescripcion": "",
-            "dateUltimaInspeccion": "2024-12-28",
+            "dateUltimaInspeccion": "2025-01-04",
             "strDepartamento": "LIMA",
             "strProvincia": "LIMA",
             "strDistrito": "BARRANCO",
             "urlFoto": "http://veranosaludable.minsa.gob.pe/Storage/tbl_playas/fld_1081_Foto_file/28-4653fda7c4d2718.jpg",
             "strSource": "pl",
-            "strUltimaInspeccion": "Última Inspección: 28-Dic-2024",
+            "strUltimaInspeccion": "Última Inspección: 04-Ene-2025",
             "aControles": [
                 {
                     "control": "Calidad Microbiológica",
@@ -553,7 +553,7 @@
                 },
                 {
                     "control": "Calidad de Limpieza",
-                    "valor": 1
+                    "valor": 0
                 },
                 {
                     "control": "Presencia de Servicios Higiénicos",
@@ -574,13 +574,13 @@
             "strLatitud": "-12.16044521",
             "strLongitud": "-77.02705383",
             "strDescripcion": "",
-            "dateUltimaInspeccion": "2024-12-28",
+            "dateUltimaInspeccion": "2025-01-04",
             "strDepartamento": "LIMA",
             "strProvincia": "LIMA",
             "strDistrito": "CHORRILLOS",
             "urlFoto": "http://veranosaludable.minsa.gob.pe/Storage/tbl_playas/fld_1081_Foto_file/29-68b965785856802.jpg",
             "strSource": "pl",
-            "strUltimaInspeccion": "Última Inspección: 28-Dic-2024",
+            "strUltimaInspeccion": "Última Inspección: 04-Ene-2025",
             "aControles": [
                 {
                     "control": "Calidad Microbiológica",
@@ -609,13 +609,13 @@
             "strLatitud": "-12.16482925",
             "strLongitud": "-77.02761078",
             "strDescripcion": "",
-            "dateUltimaInspeccion": "2024-12-28",
+            "dateUltimaInspeccion": "2025-01-04",
             "strDepartamento": "LIMA",
             "strProvincia": "LIMA",
             "strDistrito": "CHORRILLOS",
             "urlFoto": "http://veranosaludable.minsa.gob.pe/Storage/tbl_playas/fld_1081_Foto_file/30-fcbb0bfd3aabf3f.jpg",
             "strSource": "pl",
-            "strUltimaInspeccion": "Última Inspección: 28-Dic-2024",
+            "strUltimaInspeccion": "Última Inspección: 04-Ene-2025",
             "aControles": [
                 {
                     "control": "Calidad Microbiológica",
@@ -639,22 +639,22 @@
             "idProvincia": "21",
             "idDistrito": "1206",
             "strDireccion": "",
-            "strCalidadSanitaria": "Saludable",
-            "keyCalidadSanitaria": "sa",
+            "strCalidadSanitaria": "No Saludable",
+            "keyCalidadSanitaria": "ns",
             "strLatitud": "-12.16562653",
             "strLongitud": "-77.03005981",
             "strDescripcion": "",
-            "dateUltimaInspeccion": "2024-12-28",
+            "dateUltimaInspeccion": "2025-01-04",
             "strDepartamento": "LIMA",
             "strProvincia": "LIMA",
             "strDistrito": "CHORRILLOS",
             "urlFoto": "http://veranosaludable.minsa.gob.pe/Storage/tbl_playas/fld_1081_Foto_file/31-51d611765a76444.jpg",
             "strSource": "pl",
-            "strUltimaInspeccion": "Última Inspección: 28-Dic-2024",
+            "strUltimaInspeccion": "Última Inspección: 04-Ene-2025",
             "aControles": [
                 {
                     "control": "Calidad Microbiológica",
-                    "valor": 1
+                    "valor": 0
                 },
                 {
                     "control": "Calidad de Limpieza",
@@ -662,7 +662,7 @@
                 },
                 {
                     "control": "Presencia de Servicios Higiénicos",
-                    "valor": 1
+                    "valor": 0
                 }
             ]
         },
@@ -679,13 +679,13 @@
             "strLatitud": "-12.17147636",
             "strLongitud": "-77.03546906",
             "strDescripcion": "",
-            "dateUltimaInspeccion": "2024-12-28",
+            "dateUltimaInspeccion": "2025-01-04",
             "strDepartamento": "LIMA",
             "strProvincia": "LIMA",
             "strDistrito": "CHORRILLOS",
             "urlFoto": "http://veranosaludable.minsa.gob.pe/Storage/tbl_playas/fld_1081_Foto_file/35-d5b26be9499cb48.jpg",
             "strSource": "pl",
-            "strUltimaInspeccion": "Última Inspección: 28-Dic-2024",
+            "strUltimaInspeccion": "Última Inspección: 04-Ene-2025",
             "aControles": [
                 {
                     "control": "Calidad Microbiológica",
@@ -714,13 +714,13 @@
             "strLatitud": "-12.17464447",
             "strLongitud": "-77.03366089",
             "strDescripcion": "",
-            "dateUltimaInspeccion": "2024-12-28",
+            "dateUltimaInspeccion": "2025-01-04",
             "strDepartamento": "LIMA",
             "strProvincia": "LIMA",
             "strDistrito": "CHORRILLOS",
             "urlFoto": "http://veranosaludable.minsa.gob.pe/Storage/tbl_playas/fld_1081_Foto_file/37-8e55fe5e9fabc5b.jpg",
             "strSource": "pl",
-            "strUltimaInspeccion": "Última Inspección: 28-Dic-2024",
+            "strUltimaInspeccion": "Última Inspección: 04-Ene-2025",
             "aControles": [
                 {
                     "control": "Calidad Microbiológica",
@@ -749,13 +749,13 @@
             "strLatitud": "-12.21185303",
             "strLongitud": "-77.01969147",
             "strDescripcion": "",
-            "dateUltimaInspeccion": "2024-12-28",
+            "dateUltimaInspeccion": "2025-01-04",
             "strDepartamento": "LIMA",
             "strProvincia": "LIMA",
             "strDistrito": "CHORRILLOS",
             "urlFoto": "http://veranosaludable.minsa.gob.pe/Storage/tbl_playas/fld_1081_Foto_file/39-a299febf00d7bd2.jpg",
             "strSource": "pl",
-            "strUltimaInspeccion": "Última Inspección: 28-Dic-2024",
+            "strUltimaInspeccion": "Última Inspección: 04-Ene-2025",
             "aControles": [
                 {
                     "control": "Calidad Microbiológica",
@@ -784,13 +784,13 @@
             "strLatitud": "-12.21564865",
             "strLongitud": "-77.01112366",
             "strDescripcion": "",
-            "dateUltimaInspeccion": "2024-12-28",
+            "dateUltimaInspeccion": "2025-01-04",
             "strDepartamento": "LIMA",
             "strProvincia": "LIMA",
             "strDistrito": "CHORRILLOS",
             "urlFoto": "http://veranosaludable.minsa.gob.pe/Storage/tbl_playas/fld_1081_Foto_file/40-03f30d90d0da068.jpg",
             "strSource": "pl",
-            "strUltimaInspeccion": "Última Inspección: 28-Dic-2024",
+            "strUltimaInspeccion": "Última Inspección: 04-Ene-2025",
             "aControles": [
                 {
                     "control": "Calidad Microbiológica",
@@ -819,13 +819,13 @@
             "strLatitud": "-12.21762085",
             "strLongitud": "-77.00640869",
             "strDescripcion": "",
-            "dateUltimaInspeccion": "2024-12-28",
+            "dateUltimaInspeccion": "2025-01-04",
             "strDepartamento": "LIMA",
             "strProvincia": "LIMA",
             "strDistrito": "CHORRILLOS",
             "urlFoto": "http://veranosaludable.minsa.gob.pe/Storage/tbl_playas/fld_1081_Foto_file/41-63f51c74e3823fe.jpg",
             "strSource": "pl",
-            "strUltimaInspeccion": "Última Inspección: 28-Dic-2024",
+            "strUltimaInspeccion": "Última Inspección: 04-Ene-2025",
             "aControles": [
                 {
                     "control": "Calidad Microbiológica",
@@ -854,13 +854,13 @@
             "strLatitud": "-12.21986485",
             "strLongitud": "-77.00112915",
             "strDescripcion": "",
-            "dateUltimaInspeccion": "2024-12-28",
+            "dateUltimaInspeccion": "2025-01-04",
             "strDepartamento": "LIMA",
             "strProvincia": "LIMA",
             "strDistrito": "CHORRILLOS",
             "urlFoto": "http://veranosaludable.minsa.gob.pe/Storage/tbl_playas/fld_1081_Foto_file/42-7c7147ade59d63d.jpg",
             "strSource": "pl",
-            "strUltimaInspeccion": "Última Inspección: 28-Dic-2024",
+            "strUltimaInspeccion": "Última Inspección: 04-Ene-2025",
             "aControles": [
                 {
                     "control": "Calidad Microbiológica",
@@ -889,17 +889,17 @@
             "strLatitud": "-12.23116779",
             "strLongitud": "-76.97594452",
             "strDescripcion": "",
-            "dateUltimaInspeccion": "2024-12-28",
+            "dateUltimaInspeccion": "2025-01-04",
             "strDepartamento": "LIMA",
             "strProvincia": "LIMA",
             "strDistrito": "VILLA EL SALVADOR",
             "urlFoto": "http://veranosaludable.minsa.gob.pe/Storage/tbl_playas/fld_1081_Foto_file/44-e3139e275d285bc.jpg",
             "strSource": "pl",
-            "strUltimaInspeccion": "Última Inspección: 28-Dic-2024",
+            "strUltimaInspeccion": "Última Inspección: 04-Ene-2025",
             "aControles": [
                 {
                     "control": "Calidad Microbiológica",
-                    "valor": 0
+                    "valor": 1
                 },
                 {
                     "control": "Calidad de Limpieza",
@@ -959,13 +959,13 @@
             "strLatitud": "-12.23303413",
             "strLongitud": "-76.971138",
             "strDescripcion": "",
-            "dateUltimaInspeccion": "2024-12-28",
+            "dateUltimaInspeccion": "2025-01-04",
             "strDepartamento": "LIMA",
             "strProvincia": "LIMA",
             "strDistrito": "VILLA EL SALVADOR",
             "urlFoto": "http://veranosaludable.minsa.gob.pe/Storage/tbl_playas/fld_1081_Foto_file/46-380afa8b2563724.jpg",
             "strSource": "pl",
-            "strUltimaInspeccion": "Última Inspección: 28-Dic-2024",
+            "strUltimaInspeccion": "Última Inspección: 04-Ene-2025",
             "aControles": [
                 {
                     "control": "Calidad Microbiológica",
@@ -994,13 +994,13 @@
             "strLatitud": "-12.25469494",
             "strLongitud": "-76.93025208",
             "strDescripcion": "",
-            "dateUltimaInspeccion": "2024-12-28",
+            "dateUltimaInspeccion": "2025-01-04",
             "strDepartamento": "LIMA",
             "strProvincia": "LIMA",
             "strDistrito": "VILLA EL SALVADOR",
             "urlFoto": "http://veranosaludable.minsa.gob.pe/Storage/tbl_playas/fld_1081_Foto_file/47-6b9b53bafa87ef1.jpg",
             "strSource": "pl",
-            "strUltimaInspeccion": "Última Inspección: 28-Dic-2024",
+            "strUltimaInspeccion": "Última Inspección: 04-Ene-2025",
             "aControles": [
                 {
                     "control": "Calidad Microbiológica",
@@ -2954,13 +2954,13 @@
             "strLatitud": "-12.57622337",
             "strLongitud": "-76.70986938",
             "strDescripcion": "",
-            "dateUltimaInspeccion": "2025-01-03",
+            "dateUltimaInspeccion": "2025-01-08",
             "strDepartamento": "LIMA",
             "strProvincia": "CAÑETE",
             "strDistrito": "SAN ANTONIO",
             "urlFoto": "http://veranosaludable.minsa.gob.pe/Storage/tbl_playas/fld_1081_Foto_file/127-ae611ebc3490c3b.jpg",
             "strSource": "pl",
-            "strUltimaInspeccion": "Última Inspección: 03-Ene-2025",
+            "strUltimaInspeccion": "Última Inspección: 08-Ene-2025",
             "aControles": [
                 {
                     "control": "Calidad Microbiológica",
@@ -2984,18 +2984,18 @@
             "idProvincia": "111",
             "idDistrito": "1598",
             "strDireccion": "",
-            "strCalidadSanitaria": "Saludable",
-            "keyCalidadSanitaria": "sa",
+            "strCalidadSanitaria": "No Saludable",
+            "keyCalidadSanitaria": "ns",
             "strLatitud": "-12.62698174",
             "strLongitud": "-76.67398071",
             "strDescripcion": "",
-            "dateUltimaInspeccion": "2025-01-03",
+            "dateUltimaInspeccion": "2025-01-08",
             "strDepartamento": "LIMA",
             "strProvincia": "CAÑETE",
             "strDistrito": "SAN ANTONIO",
             "urlFoto": "http://veranosaludable.minsa.gob.pe/Storage/tbl_playas/fld_1081_Foto_file/128-8815027e9d0a3a8.jpg",
             "strSource": "pl",
-            "strUltimaInspeccion": "Última Inspección: 03-Ene-2025",
+            "strUltimaInspeccion": "Última Inspección: 08-Ene-2025",
             "aControles": [
                 {
                     "control": "Calidad Microbiológica",
@@ -3007,7 +3007,7 @@
                 },
                 {
                     "control": "Presencia de Servicios Higiénicos",
-                    "valor": 1
+                    "valor": 0
                 }
             ]
         },
@@ -3024,13 +3024,13 @@
             "strLatitud": "-12.63136768",
             "strLongitud": "-76.67214966",
             "strDescripcion": "",
-            "dateUltimaInspeccion": "2025-01-03",
+            "dateUltimaInspeccion": "2025-01-08",
             "strDepartamento": "LIMA",
             "strProvincia": "CAÑETE",
             "strDistrito": "SAN ANTONIO",
             "urlFoto": "http://veranosaludable.minsa.gob.pe/Storage/tbl_playas/fld_1081_Foto_file/129-fb388457e0e9a06.bmp",
             "strSource": "pl",
-            "strUltimaInspeccion": "Última Inspección: 03-Ene-2025",
+            "strUltimaInspeccion": "Última Inspección: 08-Ene-2025",
             "aControles": [
                 {
                     "control": "Calidad Microbiológica",
@@ -3054,18 +3054,18 @@
             "idProvincia": "111",
             "idDistrito": "1598",
             "strDireccion": "",
-            "strCalidadSanitaria": "Saludable",
-            "keyCalidadSanitaria": "sa",
+            "strCalidadSanitaria": "No Saludable",
+            "keyCalidadSanitaria": "ns",
             "strLatitud": "-12.63971424",
             "strLongitud": "-76.67008972",
             "strDescripcion": "",
-            "dateUltimaInspeccion": "2025-01-03",
+            "dateUltimaInspeccion": "2025-01-08",
             "strDepartamento": "LIMA",
             "strProvincia": "CAÑETE",
             "strDistrito": "SAN ANTONIO",
             "urlFoto": "http://veranosaludable.minsa.gob.pe/Storage/tbl_playas/fld_1081_Foto_file/130-24a79d29d06d57c.jpg",
             "strSource": "pl",
-            "strUltimaInspeccion": "Última Inspección: 03-Ene-2025",
+            "strUltimaInspeccion": "Última Inspección: 08-Ene-2025",
             "aControles": [
                 {
                     "control": "Calidad Microbiológica",
@@ -3077,7 +3077,7 @@
                 },
                 {
                     "control": "Presencia de Servicios Higiénicos",
-                    "valor": 1
+                    "valor": 0
                 }
             ]
         },
@@ -3094,13 +3094,13 @@
             "strLatitud": "-12.7095108",
             "strLongitud": "-76.64009094",
             "strDescripcion": "",
-            "dateUltimaInspeccion": "2025-01-03",
+            "dateUltimaInspeccion": "2025-01-08",
             "strDepartamento": "LIMA",
             "strProvincia": "CAÑETE",
             "strDistrito": "MALA",
             "urlFoto": "http://veranosaludable.minsa.gob.pe/Storage/tbl_playas/fld_1081_Foto_file/131-c173642d02aec5b.jpg",
             "strSource": "pl",
-            "strUltimaInspeccion": "Última Inspección: 03-Ene-2025",
+            "strUltimaInspeccion": "Última Inspección: 08-Ene-2025",
             "aControles": [
                 {
                     "control": "Calidad Microbiológica",
@@ -3124,18 +3124,18 @@
             "idProvincia": "111",
             "idDistrito": "1349",
             "strDireccion": "",
-            "strCalidadSanitaria": "No Saludable",
-            "keyCalidadSanitaria": "ns",
+            "strCalidadSanitaria": "Saludable",
+            "keyCalidadSanitaria": "sa",
             "strLatitud": "-12.71938992",
             "strLongitud": "-76.63189697",
             "strDescripcion": "",
-            "dateUltimaInspeccion": "2025-01-03",
+            "dateUltimaInspeccion": "2025-01-08",
             "strDepartamento": "LIMA",
             "strProvincia": "CAÑETE",
             "strDistrito": "MALA",
             "urlFoto": "http://veranosaludable.minsa.gob.pe/Storage/tbl_playas/fld_1081_Foto_file/132-cdcad64031c9be7.jpg",
             "strSource": "pl",
-            "strUltimaInspeccion": "Última Inspección: 03-Ene-2025",
+            "strUltimaInspeccion": "Última Inspección: 08-Ene-2025",
             "aControles": [
                 {
                     "control": "Calidad Microbiológica",
@@ -3147,7 +3147,7 @@
                 },
                 {
                     "control": "Presencia de Servicios Higiénicos",
-                    "valor": 0
+                    "valor": 1
                 }
             ]
         },
@@ -3164,13 +3164,13 @@
             "strLatitud": "-12.76125336",
             "strLongitud": "-76.61827087",
             "strDescripcion": "",
-            "dateUltimaInspeccion": "2025-01-03",
+            "dateUltimaInspeccion": "2025-01-08",
             "strDepartamento": "LIMA",
             "strProvincia": "CAÑETE",
             "strDistrito": "ASIA",
             "urlFoto": "http://veranosaludable.minsa.gob.pe/Storage/tbl_playas/fld_1081_Foto_file/133-bec0d591900eb06.jpg",
             "strSource": "pl",
-            "strUltimaInspeccion": "Última Inspección: 03-Ene-2025",
+            "strUltimaInspeccion": "Última Inspección: 08-Ene-2025",
             "aControles": [
                 {
                     "control": "Calidad Microbiológica",
@@ -3374,13 +3374,13 @@
             "strLatitud": "-13.73063469",
             "strLongitud": "-76.22409821",
             "strDescripcion": "",
-            "dateUltimaInspeccion": "2025-01-03",
+            "dateUltimaInspeccion": "2025-01-08",
             "strDepartamento": "ICA",
             "strProvincia": "PISCO",
             "strDistrito": "SAN ANDRES",
             "urlFoto": "http://veranosaludable.minsa.gob.pe/Storage/tbl_playas/fld_1081_Foto_file/139-975f1398de7b102.jpeg",
             "strSource": "pl",
-            "strUltimaInspeccion": "Última Inspección: 03-Ene-2025",
+            "strUltimaInspeccion": "Última Inspección: 08-Ene-2025",
             "aControles": [
                 {
                     "control": "Calidad Microbiológica",
@@ -3404,18 +3404,18 @@
             "idProvincia": "108",
             "idDistrito": "839",
             "strDireccion": "",
-            "strCalidadSanitaria": "No Saludable",
-            "keyCalidadSanitaria": "ns",
+            "strCalidadSanitaria": "Saludable",
+            "keyCalidadSanitaria": "sa",
             "strLatitud": "-13.83183002",
             "strLongitud": "-76.24827576",
             "strDescripcion": "",
-            "dateUltimaInspeccion": "2025-01-03",
+            "dateUltimaInspeccion": "2025-01-08",
             "strDepartamento": "ICA",
             "strProvincia": "PISCO",
             "strDistrito": "PARACAS",
             "urlFoto": "http://veranosaludable.minsa.gob.pe/Storage/tbl_playas/fld_1081_Foto_file/140-df1560360304cea.jpeg",
             "strSource": "pl",
-            "strUltimaInspeccion": "Última Inspección: 03-Ene-2025",
+            "strUltimaInspeccion": "Última Inspección: 08-Ene-2025",
             "aControles": [
                 {
                     "control": "Calidad Microbiológica",
@@ -3423,7 +3423,7 @@
                 },
                 {
                     "control": "Calidad de Limpieza",
-                    "valor": 0
+                    "valor": 1
                 },
                 {
                     "control": "Presencia de Servicios Higiénicos",
@@ -6174,13 +6174,13 @@
             "strLatitud": "-12.14331722",
             "strLongitud": "-77.02644348",
             "strDescripcion": "",
-            "dateUltimaInspeccion": "2024-12-28",
+            "dateUltimaInspeccion": "2025-01-04",
             "strDepartamento": "LIMA",
             "strProvincia": "LIMA",
             "strDistrito": "BARRANCO",
             "urlFoto": "http://veranosaludable.minsa.gob.pe/Storage/tbl_playas/fld_1081_Foto_file/240-9eb4263b05f7652.jpg",
             "strSource": "pl",
-            "strUltimaInspeccion": "Última Inspección: 28-Dic-2024",
+            "strUltimaInspeccion": "Última Inspección: 04-Ene-2025",
             "aControles": [
                 {
                     "control": "Calidad Microbiológica",
@@ -6209,13 +6209,13 @@
             "strLatitud": "-12.15364933",
             "strLongitud": "-77.02490234",
             "strDescripcion": "",
-            "dateUltimaInspeccion": "2024-12-28",
+            "dateUltimaInspeccion": "2025-01-04",
             "strDepartamento": "LIMA",
             "strProvincia": "LIMA",
             "strDistrito": "BARRANCO",
             "urlFoto": "http://veranosaludable.minsa.gob.pe/Storage/tbl_playas/fld_1081_Foto_file/241-b40dc998af35cad.jpg",
             "strSource": "pl",
-            "strUltimaInspeccion": "Última Inspección: 28-Dic-2024",
+            "strUltimaInspeccion": "Última Inspección: 04-Ene-2025",
             "aControles": [
                 {
                     "control": "Calidad Microbiológica",
@@ -6239,53 +6239,18 @@
             "idProvincia": "111",
             "idDistrito": "840",
             "strDireccion": "",
-            "strCalidadSanitaria": "Saludable",
-            "keyCalidadSanitaria": "sa",
+            "strCalidadSanitaria": "No Saludable",
+            "keyCalidadSanitaria": "ns",
             "strLatitud": "-12.54440594",
             "strLongitud": "-76.72310638",
             "strDescripcion": "",
-            "dateUltimaInspeccion": "2025-01-03",
+            "dateUltimaInspeccion": "2025-01-08",
             "strDepartamento": "LIMA",
             "strProvincia": "CAÑETE",
             "strDistrito": "CHILCA",
             "urlFoto": "http://veranosaludable.minsa.gob.pe/Storage/tbl_playas/fld_1081_Foto_file/244-c02f49ad9446903.jpg",
             "strSource": "pl",
-            "strUltimaInspeccion": "Última Inspección: 03-Ene-2025",
-            "aControles": [
-                {
-                    "control": "Calidad Microbiológica",
-                    "valor": 1
-                },
-                {
-                    "control": "Calidad de Limpieza",
-                    "valor": 1
-                },
-                {
-                    "control": "Presencia de Servicios Higiénicos",
-                    "valor": 1
-                }
-            ]
-        },
-        {
-            "id": "245",
-            "strNombre": "Laguna Encantada",
-            "strTipoPlaya": "2",
-            "idDepartamento": "17",
-            "idProvincia": "111",
-            "idDistrito": "840",
-            "strDireccion": "",
-            "strCalidadSanitaria": "No Saludable",
-            "keyCalidadSanitaria": "ns",
-            "strLatitud": "-12.5429287",
-            "strLongitud": "-76.72738647",
-            "strDescripcion": "",
-            "dateUltimaInspeccion": "2025-01-03",
-            "strDepartamento": "LIMA",
-            "strProvincia": "CAÑETE",
-            "strDistrito": "CHILCA",
-            "urlFoto": "http://veranosaludable.minsa.gob.pe/Interface/img/playa-sin-foto.jpg",
-            "strSource": "pl",
-            "strUltimaInspeccion": "Última Inspección: 03-Ene-2025",
+            "strUltimaInspeccion": "Última Inspección: 08-Ene-2025",
             "aControles": [
                 {
                     "control": "Calidad Microbiológica",
@@ -6298,6 +6263,41 @@
                 {
                     "control": "Presencia de Servicios Higiénicos",
                     "valor": 0
+                }
+            ]
+        },
+        {
+            "id": "245",
+            "strNombre": "Laguna Encantada",
+            "strTipoPlaya": "2",
+            "idDepartamento": "17",
+            "idProvincia": "111",
+            "idDistrito": "840",
+            "strDireccion": "",
+            "strCalidadSanitaria": "Saludable",
+            "keyCalidadSanitaria": "sa",
+            "strLatitud": "-12.5429287",
+            "strLongitud": "-76.72738647",
+            "strDescripcion": "",
+            "dateUltimaInspeccion": "2025-01-08",
+            "strDepartamento": "LIMA",
+            "strProvincia": "CAÑETE",
+            "strDistrito": "CHILCA",
+            "urlFoto": "http://veranosaludable.minsa.gob.pe/Interface/img/playa-sin-foto.jpg",
+            "strSource": "pl",
+            "strUltimaInspeccion": "Última Inspección: 08-Ene-2025",
+            "aControles": [
+                {
+                    "control": "Calidad Microbiológica",
+                    "valor": 1
+                },
+                {
+                    "control": "Calidad de Limpieza",
+                    "valor": 1
+                },
+                {
+                    "control": "Presencia de Servicios Higiénicos",
+                    "valor": 1
                 }
             ]
         },
@@ -6349,13 +6349,13 @@
             "strLatitud": "-12.54769707",
             "strLongitud": "-76.7381897",
             "strDescripcion": "",
-            "dateUltimaInspeccion": "2025-01-03",
+            "dateUltimaInspeccion": "2025-01-08",
             "strDepartamento": "LIMA",
             "strProvincia": "CAÑETE",
             "strDistrito": "CHILCA",
             "urlFoto": "http://veranosaludable.minsa.gob.pe/Storage/tbl_playas/fld_1081_Foto_file/247-62cef006e4edaef.jpg",
             "strSource": "pl",
-            "strUltimaInspeccion": "Última Inspección: 03-Ene-2025",
+            "strUltimaInspeccion": "Última Inspección: 08-Ene-2025",
             "aControles": [
                 {
                     "control": "Calidad Microbiológica",
@@ -6384,13 +6384,13 @@
             "strLatitud": "-12.53665638",
             "strLongitud": "-76.75380707",
             "strDescripcion": "",
-            "dateUltimaInspeccion": "2025-01-03",
+            "dateUltimaInspeccion": "2025-01-08",
             "strDepartamento": "LIMA",
             "strProvincia": "CAÑETE",
             "strDistrito": "CHILCA",
             "urlFoto": "http://veranosaludable.minsa.gob.pe/Storage/tbl_playas/fld_1081_Foto_file/248-a3f20041239d93f.jpg",
             "strSource": "pl",
-            "strUltimaInspeccion": "Última Inspección: 03-Ene-2025",
+            "strUltimaInspeccion": "Última Inspección: 08-Ene-2025",
             "aControles": [
                 {
                     "control": "Calidad Microbiológica",
@@ -6489,13 +6489,13 @@
             "strLatitud": "-13.91178513",
             "strLongitud": "-76.31829071",
             "strDescripcion": "",
-            "dateUltimaInspeccion": "2025-01-03",
+            "dateUltimaInspeccion": "2025-01-08",
             "strDepartamento": "ICA",
             "strProvincia": "PISCO",
             "strDistrito": "PARACAS",
             "urlFoto": "http://veranosaludable.minsa.gob.pe/Storage/tbl_playas/fld_1081_Foto_file/253-fe4445c425880e0.jpeg",
             "strSource": "pl",
-            "strUltimaInspeccion": "Última Inspección: 03-Ene-2025",
+            "strUltimaInspeccion": "Última Inspección: 08-Ene-2025",
             "aControles": [
                 {
                     "control": "Calidad Microbiológica",
@@ -6524,13 +6524,13 @@
             "strLatitud": "-13.89750099",
             "strLongitud": "-76.31259918",
             "strDescripcion": "",
-            "dateUltimaInspeccion": "2025-01-03",
+            "dateUltimaInspeccion": "2025-01-08",
             "strDepartamento": "ICA",
             "strProvincia": "PISCO",
             "strDistrito": "PARACAS",
             "urlFoto": "http://veranosaludable.minsa.gob.pe/Storage/tbl_playas/fld_1081_Foto_file/254-58c7874ed34cd68.jpeg",
             "strSource": "pl",
-            "strUltimaInspeccion": "Última Inspección: 03-Ene-2025",
+            "strUltimaInspeccion": "Última Inspección: 08-Ene-2025",
             "aControles": [
                 {
                     "control": "Calidad Microbiológica",
@@ -6559,13 +6559,13 @@
             "strLatitud": "-13.92717552",
             "strLongitud": "-76.29360962",
             "strDescripcion": "",
-            "dateUltimaInspeccion": "2025-01-03",
+            "dateUltimaInspeccion": "2025-01-08",
             "strDepartamento": "ICA",
             "strProvincia": "PISCO",
             "strDistrito": "PARACAS",
             "urlFoto": "http://veranosaludable.minsa.gob.pe/Storage/tbl_playas/fld_1081_Foto_file/255-b3e31f0a0ec52db.jpeg",
             "strSource": "pl",
-            "strUltimaInspeccion": "Última Inspección: 03-Ene-2025",
+            "strUltimaInspeccion": "Última Inspección: 08-Ene-2025",
             "aControles": [
                 {
                     "control": "Calidad Microbiológica",
@@ -7714,13 +7714,13 @@
             "strLatitud": "-13.84377861",
             "strLongitud": "-76.29238129",
             "strDescripcion": "",
-            "dateUltimaInspeccion": "2025-01-03",
+            "dateUltimaInspeccion": "2025-01-08",
             "strDepartamento": "ICA",
             "strProvincia": "PISCO",
             "strDistrito": "SAN ANDRES",
             "urlFoto": "http://veranosaludable.minsa.gob.pe/Storage/tbl_playas/fld_1081_Foto_file/300-9b85c9ed4311037.jpeg",
             "strSource": "pl",
-            "strUltimaInspeccion": "Última Inspección: 03-Ene-2025",
+            "strUltimaInspeccion": "Última Inspección: 08-Ene-2025",
             "aControles": [
                 {
                     "control": "Calidad Microbiológica",
@@ -7749,13 +7749,13 @@
             "strLatitud": "-13.71271133",
             "strLongitud": "-76.22131348",
             "strDescripcion": "",
-            "dateUltimaInspeccion": "2025-01-03",
+            "dateUltimaInspeccion": "2025-01-08",
             "strDepartamento": "ICA",
             "strProvincia": "PISCO",
             "strDistrito": "PISCO",
             "urlFoto": "http://veranosaludable.minsa.gob.pe/Storage/tbl_playas/fld_1081_Foto_file/301-cd27c3a03d44f00.jpeg",
             "strSource": "pl",
-            "strUltimaInspeccion": "Última Inspección: 03-Ene-2025",
+            "strUltimaInspeccion": "Última Inspección: 08-Ene-2025",
             "aControles": [
                 {
                     "control": "Calidad Microbiológica",
@@ -7784,17 +7784,17 @@
             "strLatitud": "-13.70588207",
             "strLongitud": "-76.22102356",
             "strDescripcion": "",
-            "dateUltimaInspeccion": "2025-01-03",
+            "dateUltimaInspeccion": "2025-01-08",
             "strDepartamento": "ICA",
             "strProvincia": "PISCO",
             "strDistrito": "PISCO",
             "urlFoto": "http://veranosaludable.minsa.gob.pe/Storage/tbl_playas/fld_1081_Foto_file/302-969f621b477490f.jpeg",
             "strSource": "pl",
-            "strUltimaInspeccion": "Última Inspección: 03-Ene-2025",
+            "strUltimaInspeccion": "Última Inspección: 08-Ene-2025",
             "aControles": [
                 {
                     "control": "Calidad Microbiológica",
-                    "valor": 0
+                    "valor": 1
                 },
                 {
                     "control": "Calidad de Limpieza",
@@ -8134,13 +8134,13 @@
             "strLatitud": "-12.68591022",
             "strLongitud": "-76.65750885",
             "strDescripcion": "",
-            "dateUltimaInspeccion": "2025-01-03",
+            "dateUltimaInspeccion": "2025-01-08",
             "strDepartamento": "LIMA",
             "strProvincia": "CAÑETE",
             "strDistrito": "MALA",
             "urlFoto": "http://veranosaludable.minsa.gob.pe/Storage/tbl_playas/fld_1081_Foto_file/317-5416dd92f3d2810.jpg",
             "strSource": "pl",
-            "strUltimaInspeccion": "Última Inspección: 03-Ene-2025",
+            "strUltimaInspeccion": "Última Inspección: 08-Ene-2025",
             "aControles": [
                 {
                     "control": "Calidad Microbiológica",
@@ -8169,13 +8169,13 @@
             "strLatitud": "-12.809733",
             "strLongitud": "-76.561267",
             "strDescripcion": "",
-            "dateUltimaInspeccion": "2025-01-03",
+            "dateUltimaInspeccion": "2025-01-08",
             "strDepartamento": "LIMA",
             "strProvincia": "CAÑETE",
             "strDistrito": "ASIA",
             "urlFoto": "http://veranosaludable.minsa.gob.pe/Storage/tbl_playas/fld_1081_Foto_file/318-81d5c09600b0aae.jpg",
             "strSource": "pl",
-            "strUltimaInspeccion": "Última Inspección: 03-Ene-2025",
+            "strUltimaInspeccion": "Última Inspección: 08-Ene-2025",
             "aControles": [
                 {
                     "control": "Calidad Microbiológica",
@@ -8589,13 +8589,13 @@
             "strLatitud": "-12.2273016",
             "strLongitud": "-76.985466",
             "strDescripcion": "",
-            "dateUltimaInspeccion": "2024-12-28",
+            "dateUltimaInspeccion": "2025-01-04",
             "strDepartamento": "LIMA",
             "strProvincia": "LIMA",
             "strDistrito": "CHORRILLOS",
             "urlFoto": "http://veranosaludable.minsa.gob.pe/Storage/tbl_playas/fld_1081_Foto_file/331-799df5076968821.jpg",
             "strSource": "pl",
-            "strUltimaInspeccion": "Última Inspección: 28-Dic-2024",
+            "strUltimaInspeccion": "Última Inspección: 04-Ene-2025",
             "aControles": [
                 {
                     "control": "Calidad Microbiológica",
@@ -11341,13 +11341,13 @@
             "strLatitud": "-12.158326",
             "strLongitud": "-77.026890",
             "strDescripcion": "playa arenosa",
-            "dateUltimaInspeccion": "2024-12-28",
+            "dateUltimaInspeccion": "2025-01-04",
             "strDepartamento": "LIMA",
             "strProvincia": "LIMA",
             "strDistrito": "CHORRILLOS",
             "urlFoto": "http://veranosaludable.minsa.gob.pe/Storage/tbl_playas/fld_1081_Foto_file/562-i6Jl4Vk1Lb5Az5W.jpeg",
             "strSource": "pl",
-            "strUltimaInspeccion": "Última Inspección: 28-Dic-2024",
+            "strUltimaInspeccion": "Última Inspección: 04-Ene-2025",
             "aControles": [
                 {
                     "control": "Calidad Microbiológica",
@@ -12134,6 +12134,6 @@
             ]
         }
     ],
-    "updated": "2025-01-05T01:20:53.462Z",
+    "updated": "2025-01-09T02:03:30.471Z",
     "count": 347
 }

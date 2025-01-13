@@ -6,10 +6,12 @@ myHeaders.append("content-type", "application/x-www-form-urlencoded; charset=UTF
 
 const endPoint = "https://veranosaludable.minsa.gob.pe/VF/ws2.php?";
 
-const rawList = "rt=exa&cmd=getList&strSource=pl&idDpto=&idProv=&idDist=&strCalidadSanitaria=&strSearch=";
-const rawDetail = "rt=exa&cmd=getDetail&strSource=pl&id=";
+const strSource = "pi"; // pl = playas, pi = piscinas
 
-const outputFile = "services/mocks/data.json";
+const rawList = `rt=exa&cmd=getList&strSource=${strSource}&idDpto=&idProv=&idDist=&strCalidadSanitaria=&strSearch=`;
+const rawDetail = `rt=exa&cmd=getDetail&strSource=${strSource}&id=`;
+
+const outputFile = `services/mocks/data_${strSource}.json`;
 
 const writeFile = (data) => {
     fs.writeFile(outputFile, JSON.stringify(data, null, 4), (err) => {
@@ -50,7 +52,7 @@ fetch(endPoint, {
 
         Promise.all(detailPromises)
             .then((details) => {
-                let totalData = details.filter((detailResult) => detailResult !== null);
+                let totalData = details.filter((detailResult) => (detailResult !== null && detailResult !== undefined));
                 let response = {
                     status: 200,
                     data: totalData,
